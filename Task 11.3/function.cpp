@@ -70,6 +70,7 @@ inline void min_element_int(int* array, int length)
 	{
 		(array[i] < min_element) ? min_element = array[i] : min_element;
 	}
+	cout << "Минимальный элемент: " << min_element << endl << endl;
 }
 
 inline void min_element_double(double* array, int length)
@@ -79,6 +80,7 @@ inline void min_element_double(double* array, int length)
 	{
 		(array[i] < min_element) ? min_element = array[i] : min_element;
 	}
+	cout << "Минимальный элемент: " << min_element << endl << endl;
 }
 
 inline void min_element_char(char* array, int length)
@@ -88,6 +90,7 @@ inline void min_element_char(char* array, int length)
 	{
 		(array[i] < min_element) ? min_element = array[i] : min_element;
 	}
+	cout << "Минимальный элемент: " << min_element << endl << endl;
 }
 
 inline void max_element_int(int* array, int length)
@@ -97,6 +100,7 @@ inline void max_element_int(int* array, int length)
 	{
 		(array[i] > max_element) ? max_element = array[i] : max_element;
 	}
+	cout << "Максимальный элемент: " << max_element << endl << endl;
 }
 
 inline void max_element_double(double* array, int length)
@@ -106,6 +110,7 @@ inline void max_element_double(double* array, int length)
 	{
 		(array[i] > max_element) ? max_element = array[i] : max_element;
 	}
+	cout << "Максимальный элемент: " << max_element << endl << endl;
 }
 
 inline void max_element_char(char* array, int length)
@@ -115,21 +120,28 @@ inline void max_element_char(char* array, int length)
 	{
 		(array[i] > max_element) ? max_element = array[i] : max_element;
 	}
+	cout << "Максимальный элемент: " << max_element << endl << endl;
 }
 
 inline void sort_int(int* array, int length)
 {
 	sort(array, array + length);
+	cout << "Отсортированный массив:" << endl << endl;
+	show_array_int(array, length);
 }
 
 inline void sort_double(double* array, int length)
 {
 	sort(array, array + length);
+	cout << "Отсортированный массив:" << endl << endl;
+	show_array_double(array, length);
 }
 
 inline void sort_char(char* array, int length)
 {
 	sort(array, array + length);
+	cout << "Отсортированный массив:" << endl << endl;
+	show_array_char(array, length);
 }
 
 inline void edit_int(int* array, int length)
@@ -144,6 +156,8 @@ inline void edit_int(int* array, int length)
 	cout << "Текущее значение: " << array[edit_number] << endl;
 	cout << "Введите новое значение: ";
 	cin >> array[edit_number];
+	cout << "Массив с изменённым элементом № " << edit_number + 1 << ":" << endl << endl;
+	show_array_int(array, length);
 }
 
 inline void edit_double(double* array, int length)
@@ -158,6 +172,8 @@ inline void edit_double(double* array, int length)
 	cout << "Текущее значение: " << array[edit_number] << endl;
 	cout << "Введите новое значение: ";
 	cin >> array[edit_number];
+	cout << "Массив с изменённым элементом № " << edit_number + 1 << ":" << endl << endl;
+	show_array_double(array, length);
 }
 
 inline void edit_char(char* array, int length)
@@ -172,4 +188,6 @@ inline void edit_char(char* array, int length)
 	cout << "Текущее значение: " << array[edit_number] << endl;
 	cout << "Введите новое значение: ";
 	cin >> array[edit_number];
+	cout << "Массив с изменённым элементом № " << edit_number + 1 << ":" << endl << endl;
+	show_array_char(array, length);
 }
