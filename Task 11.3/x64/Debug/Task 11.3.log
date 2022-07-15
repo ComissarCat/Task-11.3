@@ -1,0 +1,10 @@
+﻿  function.cpp
+C:\Users\Медведев\source\repos\Task 11.3\Task 11.3\function.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Медведев\source\repos\Task 11.3\Task 11.3\function.cpp(22,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Медведев\source\repos\Task 11.3\Task 11.3\function.cpp(32,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Task 11.3.cpp
+C:\Users\Медведев\source\repos\Task 11.3\Task 11.3\function.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Медведев\source\repos\Task 11.3\Task 11.3\function.cpp(22,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Медведев\source\repos\Task 11.3\Task 11.3\function.cpp(32,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  Task 11.3.vcxproj -> C:\Users\Медведев\source\repos\Task 11.3\x64\Debug\Task 11.3.exe
